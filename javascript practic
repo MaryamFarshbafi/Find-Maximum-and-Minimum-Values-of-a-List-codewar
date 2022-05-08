@@ -1,0 +1,11 @@
+var min = function(list){
+    const getMin=(a1,a2)=> Math.min(a1,a2);
+  list[0]=list.reduce(getMin, list[0] );
+    return list[0];
+}
+
+var max = function(list){
+     const getMax=(a1,a2)=> Math.max(a1,a2);
+  list[0]=list.reduce(getMax, list[0] );
+    return list[0];
+}
